@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const uri = 'mongodb+srv://marcelomkv:8NVzpTrjwmuX7ky@cluster0.vk1if.mongodb.net/Anime?retryWrites=true&w=majority'
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
