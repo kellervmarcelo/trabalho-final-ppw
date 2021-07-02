@@ -1,6 +1,6 @@
 const express = require("express");
 const route = express.Router();
-const Anime = require("../models/Anime");
+const Anime = require('../Models/Anime.js');
 
 //middleware pra transformar o objeto em json
 route.use(express.json());

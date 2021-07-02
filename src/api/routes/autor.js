@@ -1,6 +1,6 @@
 const express = require("express");
 const route = express.Router();
-const Autor = require("../models/Autor");
+const Autor = require("../Models/Autor.js");
 
 //middleware pra transformar o objeto em json
 route.use(express.json());
