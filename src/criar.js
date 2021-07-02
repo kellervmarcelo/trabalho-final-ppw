@@ -1,55 +1,55 @@
-const Anime = require("./api/Models/Anime");
+// const Anime = require("./api/Models/Anime");
 
-const b = new Anime({
-    nome: "Boku No Hero Academia",
-    dataLancamento: 03042016,
-    dataTermino: 26062016,
-    numEpisodios: 13,
-    genero: "Shounen",
-    autor: "60de851ed2aa4927080b2e5e",
-});
+// const b = new Anime({
+//     nome: "Boku No Hero Academia",
+//     dataLancamento: 03042016,
+//     dataTermino: 26062016,
+//     numEpisodios: 13,
+//     genero: "Shounen",
+//     autor: "60de851ed2aa4927080b2e5e",
+// });
 
-b.save().then(function(){
-    console.log("Salvo")
-})
+// b.save().then(function(){
+//     console.log("Salvo")
+// })
 
-const c = new Anime({
-    nome: "Fullmetal Alchemist: Brotherhood",
-    dataLancamento: 03042016,
-    dataTermino: 26062016,
-    numEpisodios: 13,
-    genero: "Shounen",
-    autor: "60de851ed2aa4927080b2e5d",
-});
+// const c = new Anime({
+//     nome: "Fullmetal Alchemist: Brotherhood",
+//     dataLancamento: 03042016,
+//     dataTermino: 26062016,
+//     numEpisodios: 13,
+//     genero: "Shounen",
+//     autor: "60de851ed2aa4927080b2e5d",
+// });
 
-c.save().then(function(){
-    console.log("Salvo")
-})
+// c.save().then(function(){
+//     console.log("Salvo")
+// })
 
-const d = new Anime({
-    nome: "Hunter x Hunter",
-    dataLancamento: 03042016,
-    dataTermino: 26062016,
-    numEpisodios: 13,
-    genero: "Shounen",
-    autor: "60de851ed2aa4927080b2e5c",
-});
+// const d = new Anime({
+//     nome: "Hunter x Hunter",
+//     dataLancamento: 03042016,
+//     dataTermino: 26062016,
+//     numEpisodios: 13,
+//     genero: "Shounen",
+//     autor: "60de851ed2aa4927080b2e5c",
+// });
 
-d.save().then(function(){
-    console.log("Salvo")
-})
+// d.save().then(function(){
+//     console.log("Salvo")
+// })
 
 
 
 // const Criador = require("./api/Models/Autor");
 
 // const b = new Criador({
-//     nome: "Yoshihiro Togashi",
-//     dataNascimento: 27041966,
-//     animes: ['Hunter x Hunter ', 'Level E ', 'Yu Yu Hakusho'],
-//     idade: 55,
-//     estaVivo: true,
-//     sexo: 'Masculino',
+    // nome: "Yoshihiro Togashi",
+    // dataNascimento: 27041966,
+    // animes: ['Hunter x Hunter ', 'Level E ', 'Yu Yu Hakusho'],
+    // idade: 55,
+    // estaVivo: true,
+    // sexo: 'Masculino',
 // });
 
 // b.save().then(function(){
