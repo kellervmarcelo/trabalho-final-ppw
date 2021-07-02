@@ -7,7 +7,8 @@ const autorSchema = new mongoose.Schema({
     idade: Number,
     estaVivo: Boolean,
     sexo: String,
-})
+    date: { type: Date, default: Date.now },
+}, {timestramp: true})
 
 const autor = mongoose.model('autor', autorSchema)
 

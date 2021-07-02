@@ -7,12 +7,12 @@ const animeSchema = new mongoose.Schema({
     dataTermino: Number,
     numEpisodios: Number,
     genero: String,
-    produtora: String,
     autor: {
         type: mongoose.Schema.Types.ObjectId,
         ref: Autor,
     },
-})
+    date: { type: Date, default: Date.now },
+}, {timestramp: true})
 
 const anime = mongoose.model('anime', animeSchema)
 
